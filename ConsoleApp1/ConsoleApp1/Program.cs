@@ -79,20 +79,7 @@ namespace ConsoleApp1
                     }
                 }
             }
-            /*
-             *
-                0x6a j ┘
-                0x6b k ┐
-                0x6c l ┌
-                0x6d m └
-                0x6e n ┼
-                0x71 q ─
-                0x74 t ├
-                0x75 u ┤
-                0x76 v ┴
-                0x77 w ┬
-                0x78 x │
-             */
+
             //draw header line
             // header
             Console.Write("┌"); // start top left
