@@ -9,7 +9,8 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             //Console.WriteLine("Hello World!");
-            var filename = "/Users/shyamsundarnavvaneethan/RiderProjects/ConsoleApp1/ConsoleApp1/input.csv";
+            ///Users/shyamsundarnavvaneethan/RiderProjects/Csv2Table/ConsoleApp1/ConsoleApp1
+            var filename = "/Users/shyamsundarnavvaneethan/RiderProjects/Csv2Table/ConsoleApp1/ConsoleApp1/input.csv";
             var bytes = Encoding.UTF8.GetBytes(File.ReadAllText(filename));
             var tokenizer = new Tokenizer(bytes);
             int maxRows = 0;
